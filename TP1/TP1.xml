@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--  EXO 1 -->
+
+<monde>
+
+<pays>
+
+    <nom>France</nom>
+
+    <capitale>Pa</capitale>
+
+    <population  date="2007">64 102 000</population>
+
+
+
+
+</pays>
+
+
+
+
+<pays>
+
+    <nom>Italie</nom>
+
+    <capitale>Rome</capitale>
+
+    <population date="2006">58 133 509 </population>
+
+
+
+</pays>
+
+
+
+<pays>
+
+    <nom>Espagne</nom>
+
+    <nom>Madrid</nom>
+
+    <population   date="2006">44 708 964 </population>
+
+
+ 
+
+
+</pays>
+
+
+
+    </monde>
+    
+        
+    
