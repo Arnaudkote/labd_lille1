@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+
+
+<voyage_>
+
+<informations_generale_voyage>
+
+<ville_depart>
+
+
+<nom>Seclin - Centre hospitalier</nom>
+
+
+</ville_depart>
+
+
+<ville_arr>
+
+
+<nom>Roubaix - Avenue Motte</nom>
+
+
+</ville_arr>
+
+<date_et_heure>
+
+Mardi 22 janvier à 12h35
+
+
+</date_et_heure>
+
+
+<mode>
+
+Métro-Tramway-Bus-Car
+
+</mode>
+
+<Preference>
+
+Arriver le plus rapidement
+
+</Preference>
+
+
+<vitesse_de_marche>
+
+pied Normale
+
+</vitesse_de_marche>
+
+
+<parcours_duree>
+
+
+1h 27 min
+
+</parcours_duree>
+
+</informations_generale_voyage>
+
+<marche>
+
+
+    <depart   mobilite="pied">
+	
+	Seclin - Centre hospitalier
+	</depart>
+	
+	<arrivee>
+	
+	Seclin -Hôtel de Ville
+	
+	</arrivee>
+	
+	<duree> 13 min </duree>
+
+
+</marche>
+
+
+<etapes>
+
+<etape1>
+
+<heure>14h51</heure>
+
+<bus_numero direction="Lille - Porte des Postes"> 
+
+ligne 52
+
+</bus_numero>
+
+<descendre>
+
+ l’arrêt Lille - CHR B Calmette
+
+</descendre>
+
+<duree>
+
+23 min
+
+</duree>
+
+</etape1>
+
+<etape2>
+
+<numero_ligne  direction="Villeneuve d’Ascq - 4 Cantons Grand Stade">
+
+<num>Métro ligne 1</num>
+
+<depart>
+
+<heure>
+
+15h18
+</heure>
+
+<arret>
+
+arrêt Lille - CHR B Calmette
+
+</arret>
+
+</depart>
+
+
+<arrivee>
+
+<heure>
+
+15h21
+
+</heure>
+
+<arret>
+
+ Lille - Porte des Postes
+
+
+</arret>
+
+</arrivee>
+
+</numero_ligne>
+
+
+</etape2>
+
+<etape3>
+
+<numero_ligne direction="Tourcoing - CH Dron">
+
+<nom>
+
+Métro ligne 2
+
+</nom>
+
+<depart>
+
+<arret>
+
+ Lille - Porte des Postes
+ 
+ </arret>
+ 
+ <heure>
+ 
+ 15h27
+  </heure>
+ 
+
+</depart>
+
+<arrivee>
+
+<arret>
+
+ Roubaix - Epeule Montesquieu
+ 
+ </arret>
+ 
+ <heure>
+ 
+ 15h52
+ 
+ </heure>
+ 
+  </arrivee>
+ 
+
+</numero_ligne>
+
+
+</etape3>
+
+<etape4>
+
+<numero_ligne direction="Roubaix - fraternité">
+
+<num> ligne 25 </num>
+
+<depart>
+
+<arret>
+
+arrêt Roubaix - Epeule Montesquieu
+
+</arret>
+
+<heure>
+
+15h56
+</heure>
+
+</depart>
+
+<arrivee>
+
+<arret>
+
+arrêt Roubaix - Avenue Motte
+
+</arret>
+
+<heure>
+
+16h05
+
+</heure>
+
+</arrivee>
+
+</numero_ligne>
+
+
+
+
+
+</etape4>
+
+
+</etapes>
+
+</voyage_>
+
+

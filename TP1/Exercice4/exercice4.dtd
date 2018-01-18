@@ -1,0 +1,102 @@
+<!ELEMENT voyage (informations_generale_voyage,
+marche,etapes)>
+
+<!ELEMENT informations_generale_voyage 
+(ville_depart,ville_arr,date_et_heure,
+mode,Preference,vitesse_de_marche,parcours_duree
+)>
+
+<!ELEMENT ville_depart 
+(nom)>
+
+
+<!ELEMENT nom  (#PCDATA)>
+
+
+<!ELEMENT ville_arr
+(nom)>
+
+<!ELEMENT date_et_heure (#PCDATA)
+>
+
+
+<!ELEMENT mode   (#PCDATA)
+>
+
+<!ELEMENT Preference   (#PCDATA)
+>
+
+<!ELEMENT vitesse_de_marche   (#PCDATA)
+>
+
+<!ELEMENT parcours_duree   (#PCDATA)
+>
+
+<!ELEMENT marche   (depart_marche,arrivee_marche,duree)
+>
+
+<!ATTLIST depart_marche   mobilite CDATA #IMPLIED
+>
+
+<!ELEMENT depart_marche    (#PCDATA)
+>
+
+<!ELEMENT arrivee_marche    (#PCDATA)
+>
+
+<!ELEMENT duree    (#PCDATA)
+>
+
+<!ELEMENT etapes    (etape1,etape2,etape3,etape4)
+>
+
+<!ELEMENT etape1    (heure,bus_numero,descendre,duree)
+>
+
+<!ELEMENT heure    (#PCDATA)
+>
+
+<!ATTLIST bus_numero   direction CDATA #IMPLIED
+>
+
+<!ELEMENT bus_numero    (#PCDATA)
+>
+
+<!ELEMENT descendre    (#PCDATA)
+>
+
+<!ELEMENT etape2    (numero_ligne)
+>
+
+<!ELEMENT numero_ligne    (num,depart,arrivee)
+>
+
+
+<!ATTLIST numero_ligne   mobilite CDATA #IMPLIED
+>
+
+<!ELEMENT num    (#PCDATA)
+>
+
+<!ELEMENT depart    (heure_dep,arret)
+>
+
+<!ELEMENT heure_dep    (#PCDATA)
+>
+
+<!ELEMENT arret    (#PCDATA)
+>
+<!ELEMENT arrivee    (heure_arr,arret)
+>
+
+<!ELEMENT heure_arr    (#PCDATA)
+>
+
+<!ELEMENT etape3    (numero_ligne)
+>
+
+
+<!ELEMENT etape4    (numero_ligne)
+>
+
+

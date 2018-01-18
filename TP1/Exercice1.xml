@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liste_de_pays>
+
+
+ <pays>
+
+<nom_pays>France</nom_pays>
+
+<capitale>
+
+<nom_capital> Paris</nom_capital>
+
+<habitants> 64 102 000 </habitants>
+
+<annee> 2007</annee>
+
+</capitale>
+
+</pays>
+
+<pays>
+
+<nom_pays> Italie </nom_pays>
+
+<capitale>
+
+
+<nom_capitale> Rome </nom_capitale>
+
+<habitants>58 133 509</habitants>
+
+
+<annee> 2006</annee>
+
+</capitale>
+
+</pays>
+
+
+<pays>
+
+<nom_pays> Espagne </nom_pays>
+
+<capitale>
+
+
+<nom_capitale> Madrid </nom_capitale>
+
+<habitants>44 708 964</habitants>
+
+<annee> 2006</annee>
+
+</capitale>
+
+</pays>
+
+
+
+
+</liste_de_pays>
