@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ENTER_NAME_OF_ROOT_ELEMENT_HERE EMPTY>
+<!ELEMENT  A (B+,D+,F*)>
+<!ELEMENT  B (C*)>
+<!ELEMENT  C (#PCDATA)>
+<!ELEMENT  D (F*)>
+<!ELEMENT  F (#PCDATA)>
