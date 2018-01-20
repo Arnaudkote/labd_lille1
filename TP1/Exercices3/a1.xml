@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+<!DOCTYPE d1 SYSTEM "d1.dtd"> 
+
 <A>
 	<B>
 		<C>1</C>

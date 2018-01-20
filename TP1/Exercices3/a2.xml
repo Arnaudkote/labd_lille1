@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
+
+
+<!DOCTYPE A 
+[ <!ELEMENT  A ( (B|D)+,F)>]>
+
+
+
+<!DOCTYPE B
+[ <!ELEMENT B (C*)>]>
+
+
+
+<!DOCTYPE C
+[ <!ELEMENT C (#PCDATA)>]>
+
+
+
+
+<!DOCTYPE D
+[ <!ELEMENT D (F*)>]>
+
+
+
+<!DOCTYPE F
+[ <!ELEMENT F (#PCDATA)>]>
+
+
+
 <A>
 	<B>
 		<C>4</C>
