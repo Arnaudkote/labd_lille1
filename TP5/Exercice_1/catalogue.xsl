@@ -24,7 +24,12 @@
   <table border="1">
     <xsl:copy-of select="$header" />
     <xsl:for-each select="CATALOG/PLANT">
+	
+	  <xsl:sort select="COMMON"/>
+	  
       <tr>
+	  
+	
         <td><xsl:value-of select="COMMON"/></td>
         <td><xsl:value-of select="BOTANICAL"/></td>
 		  <td><xsl:value-of select="ZONE"/></td>
@@ -36,6 +41,8 @@
 		   
 		    <td><xsl:value-of select="AVAILABILITY"/></td>
       </tr>
+	  
+	    </xsl:sort>
     </xsl:for-each>
   </table>
   </body>
