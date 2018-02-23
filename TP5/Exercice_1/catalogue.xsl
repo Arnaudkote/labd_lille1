@@ -27,7 +27,7 @@
 	
 	  <xsl:sort select="COMMON"/> 
 	  
-      <tr>
+      <tr> 
 	  
 	
         <td><xsl:value-of select="COMMON"/></td>
