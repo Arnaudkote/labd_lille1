@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" indent="yes" encoding="UTF-8"/>
+
+
+
+<xsl:variable name="header">
+  <tr>
+    <th>COMMON</th>
+    <th>BOTANICAL</th>
+	<th style="color:blue;
+text-decoration:underline">ZONE</th>
+	<th style="color:blue;
+text-decoration:underline">LIGHT</th>
+	<th>PRICE</th>
+	<th style="color:blue;
+text-decoration:underline">AVAILABILITY</th>
+  </tr>
+</xsl:variable>
+
+
+  <xsl:template match="/">
+  
+  <html>
+  <body>
+  <table border="1">
+    <xsl:copy-of select="$header" />
+    <xsl:for-each select="CATALOG/PLANT">
+	
+	  <xsl:sort select="BOTANICAL"/>
+	  
+      <tr>
+	  
+	
+        <td><xsl:value-of select="COMMON"/></td>
+        <td><xsl:value-of select="BOTANICAL"/></td>
+		  <td><xsl:value-of select="ZONE"/></td>
+		  
+		  <td><xsl:value-of select="LIGHT"/></td>
+		  
+		   <td><xsl:value-of select="PRICE"/></td>
+		   
+		   
+		    <td><xsl:value-of select="AVAILABILITY"/></td>
+      </tr>
+	  
+	    </xsl:sort>
+    </xsl:for-each>
+  </table>
+  </body>
+  </html>
+
+  
+  
+  
+  </xsl:template>
+
+
+</xsl:stylesheet>
