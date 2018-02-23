@@ -25,7 +25,7 @@
     <xsl:copy-of select="$header" />
     <xsl:for-each select="CATALOG/PLANT">
 	
-	  <xsl:sort select="COMMON"/>
+	  <xsl:sort select="BOTANICAL"/>
 	  
       <tr>
 	  
