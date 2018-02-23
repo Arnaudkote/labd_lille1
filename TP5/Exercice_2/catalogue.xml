@@ -30,7 +30,7 @@ text-decoration:underline">AVAILABILITY</th>
 	
 	  <xsl:sort select="BOTANICAL"/>
 	  
-      <tr>
+      <tr> 
 	  
 	
         <td><xsl:value-of select="COMMON"/></td>
